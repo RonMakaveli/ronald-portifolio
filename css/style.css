@@ -96,6 +96,10 @@ section{
     align-items: center;
 }
 
+.hidden{
+    display: none !important;
+}
+
 /*------------------- Scrollbar Customizada -------------------*/
 ::-webkit-scrollbar{
     width: 5px;
