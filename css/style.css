@@ -65,7 +65,6 @@ section{
 }
 
 .container{
-    background-color: red;
     padding: 0 40px;
     width: 100%;
 }
@@ -82,14 +81,7 @@ section{
 /*------------------- Seção de Ínicio-------------------*/
 .home-section{
     display: flex;
-}
-
-.home-text{
-    background-color: blue;
-}
-
-.home-img{
-    background-color: green;
+    padding: 120px 0;
 }
 
 .home-text, .home-img{
