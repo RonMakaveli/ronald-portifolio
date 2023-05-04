@@ -100,6 +100,22 @@ section{
     display: none !important;
 }
 
+.sec-padding{
+    padding: 80px 0;
+}
+
+/*------------------- Seção de título -------------------*/
+.section-title{
+    padding: 0 15px;
+    width: 100%;
+    text-align: center;
+}
+
+.section-title h2{
+    font-size: 40px;
+    text-transform: capitalize;
+}
+
 /*------------------- Scrollbar Customizada -------------------*/
 ::-webkit-scrollbar{
     width: 5px;
