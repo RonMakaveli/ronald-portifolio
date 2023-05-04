@@ -1,3 +1,6 @@
+/*------------------- Google Fonts -------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
 /*------------------- Variáveis -------------------*/
 :root{
     --main-color: #e02f6b;
@@ -28,6 +31,8 @@ body{
     min-height: 100vh;
     background-image: linear-gradient(to bottom right, var(--pink-light), var(--cyan-light));
     font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
     color: var(--blue-dark);
     line-height: 1.5;
     overflow-x: hidden;
@@ -87,6 +92,20 @@ section{
 .home-text, .home-img{
     width: 50%;
     padding: 15px;
+}
+
+.home-text p{
+    font-size: 18px;
+}
+
+.home-text h1{
+    font-size: 50px;
+    text-transform: capitalize;
+}
+
+.home-text h2{
+    font-size: 20px;
+    text-transform: capitalize;
 }
 
 .home-img .img-box{
