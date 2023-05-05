@@ -408,5 +408,5 @@ button{
 }
 
 .portfolio-item-details{
-    display: none;
+    display: flex;
 }
