@@ -90,6 +90,7 @@ section{
     max-width: 1200px;
     margin: auto;
     transition: all 0.5s ease-in-out;
+    position: relative;
 }
 
 .main.fade-out{
@@ -195,6 +196,15 @@ button{
 
 /*-------------------------------------- Seção de cabeçalho --------------------------------------*/
 
+.header{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    padding: 20px 0 0;
+}
+
 .header .nav-toggler{
     width: 50px;
     height: 50px;
@@ -233,6 +243,10 @@ button{
 .header .nav-toggler span::after{
     right: 0;
     transform: translateY(8px);
+}
+
+.header .nav-toggler:hover span::before, .header .nav-toggler:hover span::after{
+    width: 50%;
 }
 
 /*-------------------------------------- Seção de ínicio --------------------------------------*/
