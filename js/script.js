@@ -20,5 +20,6 @@ document.addEventListener("click", (e) =>{
 });
 
 function togglePortfolioPopup(){
-    document.querySelector(".porfolio-popup").classList.toggle("open");
+    document.querySelector(".portfolio-popup").classList.toggle("open");
+    document.body.classList.toggle("hide-scrolling");
 }
