@@ -15,6 +15,10 @@ tabsContainer.addEventListener("click" , (e)=>{
 /* ---------------------- Popup de itens do portfolio ---------------------- */ 
 document.addEventListener("click", (e) =>{
     if(e.target.classList.contains("view-project-btn")){
-        console.log("hi")
-    }
-})
+        togglePortfolioPopup();
+    };
+});
+
+function togglePortfolioPopup(){
+    document.querySelector(".porfolio-popup").classList.toggle("open");
+}
