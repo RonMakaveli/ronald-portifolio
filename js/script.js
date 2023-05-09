@@ -9,7 +9,7 @@ tabsContainer.addEventListener("click" , (e)=>{
         const target = e.target.getAttribute("data-target");
         aboutSection.querySelector(".tab-content.active").classList.remove("active");
         aboutSection.querySelector(target).classList.add("active");
-    }
+    };
 });
 
 /* ---------------------- Popup de itens do portfolio ---------------------- */ 
@@ -22,4 +22,6 @@ document.addEventListener("click", (e) =>{
 function togglePortfolioPopup(){
     document.querySelector(".portfolio-popup").classList.toggle("open");
     document.body.classList.toggle("hide-scrolling");
-}
+};
+
+document.querySelector(".pp-close").addEventListener("click", togglePortfolioPopup);
