@@ -84,6 +84,11 @@ section{
     min-height: calc(100vh - 70px);
     border-radius: 30px;
     backdrop-filter: var(--backdrop-filter-blur);
+    display: none;
+}
+
+section.active{
+    display: block;
 }
 
 .main{
@@ -313,6 +318,11 @@ button{
 
 /*-------------------------------------- Seção de ínicio --------------------------------------*/
 .home-section{
+    /* display: flex; */
+    padding: 120px 0;
+}
+
+.home-section.active{
     display: flex;
     padding: 120px 0;
 }
