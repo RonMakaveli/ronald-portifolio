@@ -11,6 +11,8 @@ function toggleNavbar(){
     document.querySelector(".header").classList.toggle("active");
 }
 
+/* ---------------------- Seções Ativas ---------------------- */ 
+
 /* ---------------------- Sobre Tabs ---------------------- */ 
 const tabsContainer = document.querySelector(".about-tabs"),
 aboutSection = document.querySelector(".about-section"); 
