@@ -30,6 +30,7 @@ document.addEventListener("click", (e) =>{
             window.scrollTo(0,0);
             document.body.classList.remove("hide-scrolling");
             navToggler.classList.remove("hide");
+            document.querySelector(".overlay").classList.remove("active");
         },500);
     }
 });
