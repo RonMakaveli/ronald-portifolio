@@ -1,8 +1,12 @@
 /* ---------------------- Alternancia da navbar---------------------- */ 
 const navToggler = document.querySelector(".nav-toggler");
 navToggler.addEventListener("click", () =>{
-    console.log("Olá");
+    hideSection();
 });
+function hideSection(){
+    document.querySelector("section-active").classList.toggle("fade-out");
+}
+
 
 /* ---------------------- Sobre Tabs ---------------------- */ 
 const tabsContainer = document.querySelector(".about-tabs"),
