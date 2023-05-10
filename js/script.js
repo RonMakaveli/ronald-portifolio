@@ -1,4 +1,8 @@
 /* ---------------------- Alternancia da navbar---------------------- */ 
+const navToggler = document.querySelector(".nav-toggler");
+navToggler.addEventListener("click", () =>{
+    console.log("Olá");
+});
 
 /* ---------------------- Sobre Tabs ---------------------- */ 
 const tabsContainer = document.querySelector(".about-tabs"),
