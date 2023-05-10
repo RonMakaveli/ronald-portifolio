@@ -1,3 +1,5 @@
+
+
 /* ---------------------- Sobre Tabs ---------------------- */ 
 const tabsContainer = document.querySelector(".about-tabs"),
 aboutSection = document.querySelector(".about-section"); 
@@ -29,7 +31,7 @@ function togglePortfolioPopup(){
 
 document.querySelector(".pp-close").addEventListener("click", togglePortfolioPopup);
 
-// Esconder popup quando clicar fora dele
+/* ---------------------- Esconder popup ao clicar fora dele ---------------------- */ 
 document.addEventListener("click", (e) =>{
     if(e.target.classList.contains("pp-inner")){
         togglePortfolioPopup();
@@ -46,3 +48,5 @@ function portfolioItemDetails(portfolioItem){
     document.querySelector(".pp-body").innerHTML = 
     portfolioItem.querySelector(".portfolio-item-details").innerHTML;
 }
+
+/* ---------------------- Popup de itens do portfolio ---------------------- */ 
