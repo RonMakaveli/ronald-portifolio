@@ -1,4 +1,4 @@
-
+/* ---------------------- Alternancia da navbar---------------------- */ 
 
 /* ---------------------- Sobre Tabs ---------------------- */ 
 const tabsContainer = document.querySelector(".about-tabs"),
