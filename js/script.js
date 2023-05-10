@@ -12,6 +12,17 @@ function toggleNavbar(){
 }
 
 /* ---------------------- Seções Ativas ---------------------- */ 
+document.addEventListener("click", (e) =>{
+    if(e.target.classList.contains("link-item") && e.target.hash !== ""){
+        const hash = e.target.hash;
+        if(e.target.classList.contains("nav-item")){
+            console.log("True");
+        }
+        else{
+            console.log("False");
+        }
+    }
+});
 
 /* ---------------------- Sobre Tabs ---------------------- */ 
 const tabsContainer = document.querySelector(".about-tabs"),
