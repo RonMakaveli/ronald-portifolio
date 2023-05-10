@@ -259,6 +259,12 @@ button{
     justify-content: center;
     margin: 0 15px;
     z-index: 1;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.header .nav-toggler.hide{
+    opacity: 0;
+    transition: none;
 }
 
 .header .nav-toggler span{
