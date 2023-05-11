@@ -239,7 +239,7 @@ button{
 }
 
 .overlay.active{
-    visibility: hidden;
+    visibility: visible;
 }
 
 /*-------------------------------------- Seção de cabeçalho --------------------------------------*/
