@@ -325,6 +325,9 @@ button{
     z-index: 999;
     background-color: var(--white-alpha-25);
     backdrop-filter: var(--backdrop-filter-blur);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .page-loader div{
@@ -334,13 +337,19 @@ button{
 .page-loader div:nth-child(1){
     height: 60px;
     width: 60px;
-    border-color: (var(--main-color));
+    border-color: var(--main-color);
 }
 
 .page-loader div:nth-child(2){
     height: 45px;
     width: 45px;
-    border-color: (var(--blue));
+    border-color: var(--blue);
+}
+
+.page-loader div:nth-child(3){
+    height: 30px;
+    width: 30px;
+    border-color: var(--orange);
 }
 
 /*-------------------------------------- Seção de cabeçalho --------------------------------------*/
