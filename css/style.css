@@ -232,9 +232,8 @@ button{
     top: 0;
     height: 100%;
     width: 100%;
-    background-color: red;
+    background-color: transparent;
     z-index: 200;
-    opacity: 0.5;
     visibility: hidden;
 }
 
