@@ -8,8 +8,8 @@
     --blue-dark: #18293c;
     --orange: #ffa500;
     --green-yellow: #cddc39;
-    --pink-light: #b2ffd5;
-    --cyan-light: #ae92db;
+    --purple-light: #c2aaff;
+    --cyan-light: #c2ffff;
     --white: #ffffff;
     --white-alpha-40: rgba(255, 255, 255, 0.40);
     --white-alpha-25: rgba(255, 255, 255, 0.25);
@@ -29,7 +29,7 @@
 }
 body{
     min-height: 100vh;
-    background-image: linear-gradient(to bottom right, var(--pink-light), var(--cyan-light));
+    background-image: linear-gradient(to bottom right, var(--purple-light), var(--cyan-light));
     background-attachment: fixed;
     font-size: 16px;
     font-family: 'Poppins', sans-serif;
