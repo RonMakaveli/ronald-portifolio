@@ -234,13 +234,23 @@ button{
     width: calc(100% - 30px);
     left: 50%;
     transform: translateX(-50%);
+    z-index: 1;
 }
 
 .bg-circles div{
     position: absolute;
+    border-radius: 50%;
 }
 
-
+.bg-circles .circle-1{
+    height: 60px;
+    width: 60px;
+    background-color: var(--blue);
+    left: 5%;
+    top: 10%;
+    opacity: 0.3;
+    animation: zoomInOut 8s linear infinite;
+}
 
 /*-------------------------------------- Animação da sobreposição --------------------------------------*/
 
