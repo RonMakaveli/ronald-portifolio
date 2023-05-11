@@ -39,6 +39,7 @@ body{
     overflow-x: hidden;
     -webkit-tap-highlight-color: transparent;
     padding: 35px 15px;
+    overscroll-behavior: contain;
 }
 
 body.hide-scrolling{
