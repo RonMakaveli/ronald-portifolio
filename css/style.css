@@ -224,6 +224,15 @@ button{
     }
 }
 
+@keyframes zoomInOut{
+    0%, 100%{
+        transform: scale(0.5);
+    }
+    50%{
+        transform: scale(1);
+    }
+}
+
 /*-------------------------------------- Circulos do plano de fundo --------------------------------------*/
 
 .bg-circles{
