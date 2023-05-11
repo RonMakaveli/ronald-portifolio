@@ -3,13 +3,13 @@
 
 /*-------------------------------------- Variaveis --------------------------------------*/
 :root{
-    --main-color: #e02f6b;
+    --main-color: #8d98ff;
     --blue: #0000ff;
     --blue-dark: #18293c;
     --orange: #ffa500;
     --green-yellow: #cddc39;
-    --pink-light: #efa2b4;
-    --cyan-light: #aef1ee;
+    --pink-light: #b2ffd5;
+    --cyan-light: #ae92db;
     --white: #ffffff;
     --white-alpha-40: rgba(255, 255, 255, 0.40);
     --white-alpha-25: rgba(255, 255, 255, 0.25);
