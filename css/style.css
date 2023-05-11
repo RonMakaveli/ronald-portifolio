@@ -873,3 +873,16 @@ button{
     color: var(--white);
     background-color: var(--main-color);
 }
+
+/*-------------------------------------- Responsividade --------------------------------------*/
+@media(max-width:991px){
+
+}
+
+@media(max-width:767){
+    
+}
+
+@media(max-width:575){
+    
+}
