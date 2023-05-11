@@ -226,6 +226,20 @@ button{
 
 /*-------------------------------------- Circulos do plano de fundo --------------------------------------*/
 
+.bg-circles{
+    position: fixed;
+    top: 0;
+    height: 100%;
+    max-width: 1200px;
+    width: calc(100% - 30px);
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.bg-circles div{
+    position: absolute;
+}
+
 
 
 /*-------------------------------------- Animação da sobreposição --------------------------------------*/
