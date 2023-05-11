@@ -314,6 +314,19 @@ button{
     visibility: visible;
 }
 
+/*-------------------------------------- Carregamento da página --------------------------------------*/
+
+.page-loader{
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 999;
+    background-color: var(--white-alpha-25);
+    backdrop-filter: var(--backdrop-filter-blur);
+}
+
 /*-------------------------------------- Seção de cabeçalho --------------------------------------*/
 
 .header{
