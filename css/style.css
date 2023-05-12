@@ -272,7 +272,7 @@ button{
 .bg-circles .circle-1{
     height: 60px;
     width: 60px;
-    background-color: var(--blue);
+    background-color: var(--orange);
     left: 5%;
     top: 10%;
     opacity: 0.3;
@@ -282,7 +282,7 @@ button{
 .bg-circles .circle-2{
     height: 80px;
     width: 80px;
-    background-color: var(--main-color);
+    background-color: var(--full-black);
     left: 30%;
     top: 50%;
     opacity: 0.4;
@@ -292,7 +292,7 @@ button{
 .bg-circles .circle-3{
     height: 120px;
     width: 120px;
-    background-color: var(--white);
+    background-color: var(--main-color);
     top: 40%;
     right: -60px;
     opacity: 0.6;
@@ -623,6 +623,13 @@ button{
     text-transform: capitalize;
     margin: 0 10px 10px 0;
     border-radius: 20px;
+    transition: ease-in-out 0.3s;
+}
+
+.about-text .skill-item:hover{
+    background-color: var(--white-alpha-40);
+    border: 1px solid var(--white-alpha-25);
+    cursor: pointer;
 }
 
 .about-tabs{
