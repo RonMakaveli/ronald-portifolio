@@ -11,8 +11,8 @@
     --grey-light: #666666;
     --grey-transp: #000000b2;
     --white: #ffffff;
-    --white-alpha-40: rgba(255, 255, 255, 0.30);
-    --white-alpha-25: rgba(255, 255, 255, 0.20);
+    --white-alpha-40: rgba(255, 255, 255, 0.20);
+    --white-alpha-25: rgba(255, 255, 255, 0.10);
     --backdrop-filter-blur: blur(5px);
 
 }
