@@ -27,6 +27,9 @@
 ::before, ::after{
     box-sizing: border-box;
 }
+html{
+    background-image: linear-gradient(to bottom right, var(--grey-light), var(--grey-transp));
+}
 body{
     min-height: 100vh;
     background-image: linear-gradient(to bottom right, var(--grey-light), var(--grey-transp));
