@@ -155,7 +155,7 @@ section.fade-out{
     background-color: var(--white);
 }
 ::-webkit-scrollbar-thumb{
-    background-color: var(--main-color);
+    background-color: var(--full-black);
 }
 
 /*-------------------------------------- Botôes --------------------------------------*/
@@ -192,7 +192,7 @@ button{
     top: 0;
     height: 100%;
     width: 0%;
-    background-color: var(--main-color);
+    background-color: var(--full-black);
     z-index: -1;
     transition: width 0.3s ease;
 }
