@@ -30,7 +30,7 @@
 }
 
 html{
-    background: #00000042;
+    background-image: linear-gradient(to bottom right, var(--grey-light), var(--grey-transp));
 }
 
 body{
