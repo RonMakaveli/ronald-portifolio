@@ -30,13 +30,13 @@
 }
 
 html{
-    overflow: hidden;
+    background: #00000042;
 }
 
 body{
     min-height: 100vh;
     background-image: linear-gradient(to bottom right, var(--grey-light), var(--grey-transp));
-    background-attachment: scroll;
+    background-attachment: fixed;
     font-size: 16px;
     font-family: 'Poppins', sans-serif;
     font-weight: 300;
@@ -46,9 +46,6 @@ body{
     -webkit-tap-highlight-color: transparent;
     padding: 35px 15px;
     overscroll-behavior: contain;
-    overflow-y: scroll;
-    -webkit-overflow-scrolling:touch;
-
 }
 
 body.hide-scrolling{
