@@ -993,9 +993,6 @@ button{
 }
 
 @media(max-width:575px){
-    html{
-        height: 110vh;
-    }
     .section-title h2, .header .nav-inner ul li a{
         font-size: 35px;
     }
