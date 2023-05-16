@@ -29,6 +29,10 @@
 }
 html{
     background-image: linear-gradient(to bottom right, var(--grey-light), var(--grey-transp));
+    background-attachment: fixed;
+    overflow-x: hidden;
+    overscroll-behavior: contain;
+    -webkit-tap-highlight-color: transparent;
 }
 body{
     min-height: 100vh;
