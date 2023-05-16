@@ -48,7 +48,7 @@ html::before{
 
 body{
     min-height: 100vh;
-    background-image: linear-gradient(to bottom right, var(--grey-light), var(--grey-transp));
+    background-image: linear-gradient(to bottom, var(--grey-light), var(--grey-transp));
     background-attachment: fixed;
     font-size: 16px;
     font-family: 'Poppins', sans-serif;
