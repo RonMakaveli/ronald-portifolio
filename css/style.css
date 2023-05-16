@@ -31,20 +31,7 @@
 }
 
 html{
-    background-image: linear-gradient(to bottom right, var(--grey-light), var(--grey-transp1));
-    background-attachment: fixed;
-    -webkit-tap-highlight-color: transparent;
-}
-
-html::before{
-    content: '';
-    position: fixed;
-    left: 0;
-    top: 0;
-    height: 100%;
-    width: 100%;
-    background-color: var(--full-black);
-    opacity: 0.12;
+    background-color: var(--grey-transp);
 }
 
 body{
