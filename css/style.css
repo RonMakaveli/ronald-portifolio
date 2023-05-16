@@ -28,7 +28,7 @@
     box-sizing: border-box;
 }
 
-html{
+body{
     min-height: 100vh;
     background-image: linear-gradient(to bottom right, var(--grey-light), var(--grey-transp));
     background-attachment: fixed;
@@ -43,11 +43,11 @@ html{
     overscroll-behavior: contain;
 }
 
-html.hide-scrolling{
+body.hide-scrolling{
     overflow-y: hidden;
 }
 
-html::before{
+body::before{
     content: '';
     position: fixed;
     left: 0;
