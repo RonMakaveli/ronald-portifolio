@@ -33,6 +33,17 @@ html{
     background-image: linear-gradient(to bottom right, var(--grey-light), var(--grey-transp));
 }
 
+html::before{
+    content: '';
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: var(--full-black);
+    opacity: 0.12;
+}
+
 body{
     min-height: 100vh;
     background-image: linear-gradient(to bottom right, var(--grey-light), var(--grey-transp));
